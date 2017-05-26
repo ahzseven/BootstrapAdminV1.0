@@ -1,0 +1,23 @@
+<include file="Index/header" />
+<body>
+    <section>
+        <div class="container">
+            <h1>{$message}</h1>
+            <h3 id="info">系统将在<span style="color: red;">3</span>秒后自动跳转到首页</h3>
+        </div>
+    </section>
+</body>
+<script src="__PUBLIC__/vendor/jquery/jquery.min.js"></script>
+<script>
+    var url  = "__APP__";
+    var time = 3;
+    setInterval("countTime()", 1000);
+    function countTime(){
+        if (time == 0) {
+            location.href = url;
+        }
+        $('#info span').html(time);
+        time--;
+    }
+</script>
+</html>
