@@ -1,0 +1,77 @@
+<include file="Index/header" />
+
+<body>
+
+<div id="wrapper">
+
+<include file="Index/nav"/>
+
+<div id="page-wrapper">
+<div class="row">
+      <div class="col-lg-12">
+            <h3 class="page-header">系统配置</h3>
+      </div>
+      <div class="col-sm-2">
+            <ol class="breadcrumb">
+                  <li><a href="__APP__?c=Index">Home</a></li>
+                  <li><a href="__APP__?c=Layout">版面设计</a></li>
+                  <li class="active">正文</li>
+            </ol>
+      </div>
+</div>
+
+<div class="container-fluid">
+      <div class="row">
+            <div class="col-lg-6">
+
+                  <form class="form-horizontal" id="admin-form">
+                        <div class="form-group">
+                              <label for="inputname" class="col-sm-2 control-label">推荐位名称:</label>
+                              <div class="col-sm-5">
+                                    <input type="text" name="name" value="{$list.name}" class="form-control" id="inputname">
+                              </div>
+                        </div>
+
+                        <div class="form-group">
+                              <label for="inputPassword3" class="col-sm-2 control-label">推荐位描述:</label>
+                              <div class="col-sm-5">
+                                    <input type="text" class="form-control" name="description" id="inputPassword3" value="{$list.description}">
+                              </div>
+                        </div>
+
+                        <div class="form-group">
+                              <label for="inputPassword3" class="col-sm-2 control-label">状态:</label>
+                              <div class="col-sm-5">
+                                    <input type="radio" name="status" value="1" <if condition="$list['status'] eq 1">checked</if>>开启
+                                    <input type="radio" name="status" value="0" <if condition="$list['status'] eq 0">checked</if>>关闭
+                              </div>
+                        </div>
+                        <input type="hidden" name="id" value="{$list.id}">
+                        <div class="form-group">
+                              <div class="col-sm-offset-2 col-sm-3">
+                                    <button type="button" class="btn btn-default btn-primary btn-block" id="admin-btn">提交</button>
+                              </div>
+                        </div>
+                  </form>
+
+            </div>
+      </div>
+</div>
+      <!-- /.container-fluid -->
+
+
+</div>
+<!-- /#page-wrapper -->
+
+</div>
+<!-- /#wrapper -->
+<script>
+    var jumpUrl = {
+      save_url : '__APP__?c=Layout&a=add',
+      jump_url : '__APP__?c=Layout',
+    };
+</script>
+
+</body>
+
+</html>

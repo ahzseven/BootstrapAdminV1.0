@@ -1,0 +1,120 @@
+<include file="Index/header" />
+
+<body>
+
+    <div id="wrapper">
+
+        <include file="Index/nav" />
+
+        <div id="page-wrapper">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3 class="page-header">系统信息</h3>
+                </div>
+                <div class="col-sm-2">
+                    <ol class="breadcrumb">
+                        <li><a href="__APP__?c=Index">Home</a></li>
+                        <li class="active">正文</li>
+                    </ol>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-default">
+                        <!-- /.panel-heading -->
+                        <table class="table table-hover">
+                            <caption></caption>
+                            <thead>
+                                <tr>
+                                    <th>名称</th>
+                                    <th>信息</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>用户地址:</td>
+                                    <td><?php echo $_SERVER["REMOTE_ADDR"]; ?></td>
+                                </tr>
+                                <tr>
+                                    <td>通信协议:</td>
+                                    <td><?php echo $_SERVER['SERVER_PROTOCOL']; ?></td>
+                                </tr>
+                                <tr>
+                                    <td>PHP 版本:</td>
+                                    <td><?php echo PHP_VERSION; ?></td>
+                                </tr>
+                                <tr>
+                                    <td>ACCEPT_LAN:</td>
+                                    <td><?php echo $_SERVER['HTTP_ACCEPT_LANGUAGE']; ?></td>
+                                </tr>
+                                <tr>
+                                    <td>CHARSET:</td>
+                                    <td>UTF-8</td>
+                                </tr>
+                                <tr>
+                                    <td>系统框架:</td>
+                                    <td>Tinkphp3.2.3</td>
+                                </tr>
+                                <tr>
+                                    <td>浏 览 器:</td>
+                                    <td><?php echo $_SERVER['HTTP_USER_AGENT']; ?></td>
+                                </tr>
+                                <tr>
+                                    <td>主机名称:</td>
+                                    <td><?php echo $_SERVER['SERVER_NAME']; ?></td>
+                                </tr>
+                                <tr>
+                                    <td>服务端口:</td>
+                                    <td><?php echo $_SERVER['REMOTE_PORT']; ?></td>
+                                </tr>
+                                <tr>
+                                    <td>CGI 版本:</td>
+                                    <td><?php echo $_SERVER['GATEWAY_INTERFACE']; ?></td>
+                                </tr>
+                                <tr>
+                                    <td>系统类型:</td>
+                                    <td><?php echo php_uname(); ?></td>
+                                </tr>
+                                <tr>
+                                    <td>编译环境:</td>
+                                    <td><?php echo  $_SERVER['SERVER_SOFTWARE']; ?></td>
+                                </tr>
+                                <tr>
+                                    <td>运行方式:</td>
+                                    <td><?php echo php_sapi_name(); ?></td>
+                                </tr>
+                                <tr>
+                                    <td>数 据 库:</td>
+                                    <td>MySql</td>
+                                </tr>
+                                <tr>
+                                    <td>执行MAX时间:</td>
+                                    <td><?PHP echo get_cfg_var("max_execution_time")."秒"; ?></td>
+                                </tr>
+                                <tr>
+                                    <td>占用MAX内存:</td>
+                                    <td><?PHP echo get_cfg_var ("memory_limit")?get_cfg_var("memory_limit"):"无"; ?></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+
+            <!-- /.row -->
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+</body>
+
+</html>
