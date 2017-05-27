@@ -1,0 +1,78 @@
+﻿
+/* =============================================================
+    前台博客样式
+ ============================================================ */
+
+html, body {
+    padding-top:0px;
+    margin:0px;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height:25px;
+    font-size:14px;
+}
+
+
+.header-section {
+  background-color:#065883;
+  color:#fff;
+  padding:40px 5px;
+}
+    .header-section img {
+        max-width:150px;
+        border:2px solid #fff;
+    }
+
+.spon-txt {
+    padding:40px 5px;
+    font-size:25px;
+    font-weight:800;
+}
+
+.blog-main {
+    border-bottom:1px solid gray;
+    margin-bottom:20px;
+}
+.heading-blog {
+    display: inline-block;
+    font-size:20px;
+    color:#065883;
+    font-weight:500;
+    line-height:36px;
+}
+.blog-info {
+    padding:20px 5px;
+    font-size:16px;
+    font-weight:normal;
+}
+    .blog-left {
+        width: 280px;
+        height: 180px;
+        display: inline-block;
+    }
+    .blog-right {
+        width: 520px;
+        display: inline-block;
+        float: right;
+    }
+    .news-info {
+        padding-right: 10px;
+    }
+
+.set-foot {
+    padding:20px 5px;
+}
+.copyrights{
+	text-indent:-9999px;
+	height:0;
+	line-height:0;
+	font-size:0;
+	overflow:hidden;
+}
+.container .navbar-nav>li>a.current{
+    border-top:5px solid #e54e47;
+    padding-top: 10px;
+    background: -moz-linear-gradient(top, #e3f2fd, #e3f2fd,50%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #e3f2fd), color-stop(1, #e3f2fd));
+}
