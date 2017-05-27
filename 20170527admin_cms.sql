@@ -10,7 +10,8 @@ Target Server Type    : MYSQL
 Target Server Version : 50714
 File Encoding         : 65001
 
-Date: 2017-05-27 17:58:18
+Author : seven
+Date   : 2017-05-27 17:58:18
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -267,22 +268,3 @@ CREATE TABLE `cms_user` (
 -- ----------------------------
 INSERT INTO `cms_user` VALUES ('1', 'admin', 'd099d126030d3207ba102efa8e60630a', '0.0.0.0', '1493633493', '1495260584', '38', 'ahzseven@outlook.com', 'seven', '1', '4');
 INSERT INTO `cms_user` VALUES ('2', 'seven', '9f24445952d45f7138a1b54eb74a2fdd', '::1', '1493633493', '1492531881', '28', 'ahzseven@outlook.com', '浩', '1', null);
-INSERT INTO `cms_user` VALUES ('3', 'admin2', 'e6197a0cefd8271811586345604c7b4d', '0', '1493633493', '1492531893', '27', 'ahzseven@outlook.com', 'haoh', '1', null);
-INSERT INTO `cms_user` VALUES ('4', 'admin3', '9f24445952d45f7138a1b54eb74a2fdd', '::1', '1493633493', '1492879361', '30', 'ahzseven@outlook.com', 'seven', '1', null);
-INSERT INTO `cms_user` VALUES ('5', 'admin4', '9f24445952d45f7138a1b54eb74a2fdd', '::1', '1493633493', '1492879488', '20', 'ahzseven@outlook.com', 'seven', '1', null);
-INSERT INTO `cms_user` VALUES ('6', 'admin5', '9f24445952d45f7138a1b54eb74a2fdd', '::1', '1493633493', '1492879533', '15', 'ahzseven@outlook.com', 'hao', '1', null);
-INSERT INTO `cms_user` VALUES ('7', 'admin6', '9f24445952d45f7138a1b54eb74a2fdd', '::1', '1493633493', '0', '35', 'ahzseven@outlook.com', 'seven', '1', null);
-INSERT INTO `cms_user` VALUES ('8', 'admin7', '9f24445952d45f7138a1b54eb74a2fdd', '::1', '1493633510', '0', '35', 'ahzseven@outlook.com', 'seven', '1', null);
-INSERT INTO `cms_user` VALUES ('9', 'admin8', '9f24445952d45f7138a1b54eb74a2fdd', '::1', '1493634071', '0', '35', 'ahzseven@outlook.com', 'seven', '1', null);
-INSERT INTO `cms_user` VALUES ('10', 'admin9', '9f24445952d45f7138a1b54eb74a2fdd', '::1', '1493634129', '0', '35', 'ahzseven@outlook.com', 'seven', '1', null);
-INSERT INTO `cms_user` VALUES ('11', 'admin10', '9f24445952d45f7138a1b54eb74a2fdd', '::1', '1493642557', '0', '35', 'ahzseven@outlook.com', 'seven', '1', null);
-INSERT INTO `cms_user` VALUES ('12', 'admin11', '9f24445952d45f7138a1b54eb74a2fdd', '::1', '1493642600', '0', '18', 'ahzseven@outlook.com', 'seven', '1', null);
-INSERT INTO `cms_user` VALUES ('13', 'admin12', '9f24445952d45f7138a1b54eb74a2fdd', '::1', '1493642764', '0', '18', 'ahzseven@outlook.com', 'seven', '1', null);
-INSERT INTO `cms_user` VALUES ('14', 'admin13', '9f24445952d45f7138a1b54eb74a2fdd', '::1', '1493642836', '0', '30', 'ahzseven@outlook.com', 'seven', '1', null);
-INSERT INTO `cms_user` VALUES ('15', 'admin14', '9f24445952d45f7138a1b54eb74a2fdd', '::1', '1493642938', '0', '30', 'ahzseven@outlook.com', 'seven', '1', null);
-INSERT INTO `cms_user` VALUES ('16', 'admin15', '9f24445952d45f7138a1b54eb74a2fdd', '::1', '1493642970', '0', '30', 'ahzseven@outlook.com', 'seven', '1', null);
-INSERT INTO `cms_user` VALUES ('17', 'admin16', '9f24445952d45f7138a1b54eb74a2fdd', '::1', '1493643170', '0', '30', 'ahzseven@outlook.com', 'seven', '1', null);
-INSERT INTO `cms_user` VALUES ('18', 'admin17', '9f24445952d45f7138a1b54eb74a2fdd', '::1', '1493644413', '0', '30', 'ahzseven@outlook.com', 'seven', '1', null);
-INSERT INTO `cms_user` VALUES ('19', 'admin18', '9f24445952d45f7138a1b54eb74a2fdd', '::1', '1493644494', '0', '25', 'ahzseven@outlook.com', 'seven', '1', null);
-INSERT INTO `cms_user` VALUES ('20', 'admin19', '9f24445952d45f7138a1b54eb74a2fdd', '::1', '1493649058', '0', '18', 'ahzseven@outlook.com', 'seven', '1', null);
-INSERT INTO `cms_user` VALUES ('21', 'admin20', '9f24445952d45f7138a1b54eb74a2fdd', '::1', '1493649461', '0', '18', 'ahzseven@outlook.com', 'seven', '1', null);
